@@ -1,0 +1,171 @@
+html
+{
+	background-image: url('../img/back.png');
+}
+.anim-rgb-border
+{
+	border: 0.1vw solid #fff;
+}
+header
+{
+	background-color: #333;
+}
+header h1
+{
+	color: white;
+}
+h2
+{
+	color: white;
+}
+th
+{
+	color: white;
+}
+h3
+{
+	color: white;
+}
+footer p
+{
+	color: white;
+}
+p
+{
+	color: white;
+}
+b
+{
+	color: white;
+}
+label
+{
+	color: white;
+}
+div.visual
+{
+	background-color: #333;
+}
+td
+{
+	color: white;
+}
+article li
+{
+	color: white;
+}
+nav ul 
+{
+  background-color: #333;
+}
+nav li a 
+{
+  color: white;
+}
+nav li a:hover 
+{
+  background-color: #111;
+}
+nav li a.active
+{
+	background-color: #4CAF50;
+}
+nav li button 
+{
+  color: white;
+  background-color: #333;
+}
+nav li button:hover 
+{
+  background-color: #111;
+}
+nav li button.active
+{
+	background-color: #4CAF50;
+}
+article a.visual
+{
+	color: white;
+	background-color: #333;
+}
+article a.visual:hover
+{
+	background-color: #111;
+}
+table.visual
+{
+	border: 1px solid white;
+	background-color: #333;
+}
+table.visual tr td
+{
+	border: 1px solid white;
+}
+table.visual tr th
+{
+	border: 1px solid white;
+}
+a
+{
+	color: white;
+}
+a:hover
+{
+	color: white;
+}
+footer
+{
+	background-color: #333;
+}
+article
+{
+	background-color: rgba(85, 85, 85, 0.85);
+}
+nav
+{
+	background-color: #333;
+}
+button.download
+{
+	color: white;
+	background-color: DodgerBlue;
+}
+button.download:hover
+{
+	background-color: RoyalBlue;
+}
+input.submit 
+{
+	background-color: #333;
+	color: #fff;
+	border: 0.1vw solid #fff;
+}
+input.submit:hover 
+{
+	background-color: #111;
+}
+.text-hover-anim-float
+{
+	color: white;
+	text-shadow:
+        1px 1px 0 #aaa,
+        2px 2px 0 #bbb,
+        3px 3px 0 #bbb,
+        4px 4px 0 #bbb,
+        4px 4px 15px #000,
+        4px 4px 5px #000;
+}
+.text-hover-anim-float:hover
+{
+	text-shadow:
+        1px 1px 0 #aaa,
+        2px 2px 0 #bbb,
+        3px 3px 0 #bbb,
+        4px 4px 0 #bbb,
+        13px 13px 35px #000,
+        13px 13px 20px #000;
+}
+.flipBack
+{
+	background-color: #333;
+}

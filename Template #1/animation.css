@@ -1,0 +1,192 @@
+.slave-rgb-border/*Controlled by animation.js*/
+{
+	border-color: red;
+	-webkit-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 0ms ease-in-out;
+    -moz-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 0ms ease-in-out;
+    -o-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 0ms ease-in-out;
+	transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 0ms ease-in-out;
+	border: 1.5px solid;
+}
+.flip
+{
+	-webkit-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, transform 1000ms ease;
+    -moz-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, transform 1000ms ease;
+    -o-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, transform 1000ms ease;
+	transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, transform 1000ms ease;
+}
+.interactive
+{
+    background-color: brown;
+    margin: 0px;
+	-webkit-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, transform 1000ms ease, scale 1000ms ease;
+    -moz-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, transform 1000ms ease, scale 1000ms ease;
+    -o-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, transform 1000ms ease, scale 1000ms ease;
+	transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, transform 1000ms ease, scale 1000ms ease;
+}
+.slave-rgb-border.interactive/*Controlled by animation.js*/
+{
+	-webkit-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 0ms ease-in-out, transform 1000ms ease, scale 1000ms ease;
+    -moz-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 0ms ease-in-out, transform 1000ms ease, scale 1000ms ease;
+    -o-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 0ms ease-in-out, transform 1000ms ease, scale 1000ms ease;
+	transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 0ms ease-in-out, transform 1000ms ease, scale 1000ms ease;
+}
+.perspective
+{
+    perspective: 150vw;
+    perspective-origin: center center;
+}
+.interactiveHighlight
+{
+    transform: scale(1.1, 1.1);
+	transition-duration: 100ms !important;
+}
+.flipFaceMidFrom
+{
+	transform: rotate3d(0, 1, 0, 90deg) !important;
+	transition-duration: 0ms !important;
+}
+.flipFaceMidTo
+{
+	transform: rotate3d(0, 1, 0, 90deg) !important;
+	transition-duration: 300ms !important;
+	transition-timing-function: linear !important;
+}
+.flipBackMidFrom
+{
+	transform: rotate3d(0, 1, 0, -90deg) !important;
+	transition-duration: 0ms !important;
+}
+.flipBackMidTo
+{
+	transform: rotate3d(0, 1, 0, -90deg) !important;
+	transition-duration: 300ms !important;
+	transition-timing-function: linear !important;
+}
+.flipBack * 
+{
+	opacity: 0;
+}
+.flipBack
+{
+	background-repeat: no-repeat !important;
+	/*background-attachment: fixed !important;*/
+	background-size: cover !important;
+}
+.flipBack.A{
+	background-image: url("img/A.png") !important;
+}
+.flipBack.B{
+	background-image: url("img/B.png") !important;
+}
+.flipBack.C{
+	background-image: url("img/C.png") !important;
+}
+.text-hover-anim-float
+{
+    text-align: center;
+    margin: 4vw 5vw;
+    letter-spacing: 0.5vw;
+    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-5deg, -5deg);
+    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-5deg, -5deg);
+    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-5deg, -5deg);
+    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-5deg, -5deg);
+    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-5deg, -5deg);
+	-webkit-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, margin 500ms ease-in-out;
+    -moz-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, margin 500ms ease-in-out;
+    -o-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, margin 500ms ease-in-out;
+	transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, margin 500ms ease-in-out;
+}
+.text-hover-anim-float:hover 
+{
+    margin: 3.5vw 5.5vw 4.5vw 4.5vw;
+}
+.anim-rgb-color
+{
+	animation-name: rgb-color;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.anim-rgb-background
+{
+	animation-name: rgb-background;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.anim-rgb-border
+{
+	animation-name: rgb-border;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.hover-anim-zoom-11, .hover-anim-zoom-12, .hover-anim-zoom-13, .hover-anim-zoom-14, .hover-anim-zoom-15
+{
+	-webkit-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, transform 500ms ease-in-out, scale 500ms ease-in-out;
+    -moz-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, transform 500ms ease-in-out, scale 500ms ease-in-out;
+    -o-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, transform 500ms ease-in-out, scale 500ms ease-in-out;
+	transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out, transform 500ms ease-in-out, scale 500ms ease-in-out;
+}
+.hover-anim-zoom-11:hover
+{
+	transform: scale(1.1, 1.1);
+}
+.hover-anim-zoom-12:hover
+{
+	transform: scale(1.2, 1.2);
+}
+.hover-anim-zoom-13:hover
+{
+	transform: scale(1.3, 1.3);
+}
+.hover-anim-zoom-14:hover
+{
+	transform: scale(1.4, 1.4);
+}
+.hover-anim-zoom-15:hover
+{
+	transform: scale(1.5, 1.5);
+}
+.hover-slave-rgb-border
+{
+	box-sizing: border-box;
+}
+.hover-slave-rgb-border:hover
+{
+	border: 1px solid;
+	-webkit-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 0ms ease-in-out, transform 500ms ease-in-out, scale 500ms ease-in-out;
+    -moz-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 0ms ease-in-out, transform 500ms ease-in-out, scale 500ms ease-in-out;
+    -o-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 0ms ease-in-out, transform 500ms ease-in-out, scale 500ms ease-in-out;
+	transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 0ms ease-in-out, transform 500ms ease-in-out, scale 500ms ease-in-out;
+}
+@keyframes rgb-color
+{
+	0% {color: green;}
+	16% {color: cyan;}
+	33% {color: blue;}
+	50% {color: pink;}
+	66% {color: red;}
+	83% {color: yellow;}
+	100% {color: green;}
+}
+@keyframes rgb-background
+{
+	0% {background-color: green;}
+	16% {background-color: cyan;}
+	33% {background-color: blue;}
+	50% {background-color: pink;}
+	66% {background-color: red;}
+	83% {background-color: yellow;}
+	100% {background-color: green;}
+}
+@keyframes rgb-border
+{
+	0% {border-color: green;}
+	16% {border-color: cyan;}
+	33% {border-color: blue;}
+	50% {border-color: pink;}
+	66% {border-color: red;}
+	83% {border-color: yellow;}
+	100% {border-color: green;}
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="hu" id="html">
+	<head>
+		<title>Title</title>
+		<link rel="stylesheet" id="stylesheet" href="themes/dark.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="utility.css">
+		<link rel="stylesheet" href="animation.css">
+		<link rel="icon" href="img/icon.png">
+		<meta charset="UTF-8">
+		<script src="css.js"></script>
+		<script src="controller.js"></script>
+		<script src="animation.js"></script>
+	</head>
+	<body onload="Load();">
+		<header>
+			<div class="desktop">
+				<h1 class="main text-hover-anim-float">Main page</h1>
+				<h1 class="sub1 inactiveContent text-hover-anim-float">Sub page 1</h1>
+				<h1 class="sub2 inactiveContent text-hover-anim-float">Sub page 2</h1>
+				<h1 class="sub3 inactiveContent text-hover-anim-float">Sub page 3</h1>
+			</div>
+			<div class="mobile">
+				<h1 class="main">Main page</h1>
+				<h1 class="sub1 inactiveContent">Sub page 1</h1>
+				<h1 class="sub2 inactiveContent">Sub page 2</h1>
+				<h1 class="sub3 inactiveContent">Sub page 3</h1>
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li><button class="mainBtn" onclick="SetActive('main')">Main page</button></li>
+				<li><button class="sub1Btn" onclick="SetActive('sub1')">Sub page 1</button></li>
+				<li><button class="sub2Btn" onclick="SetActive('sub2')">Sub page 2</button></li>
+				<li><button class="sub3Btn" onclick="SetActive('sub3')">Sub page 3</button></li>
+				<li class="css"><button type="button" onclick="switchCSS()">Switch Theme</button></li>
+			</ul>
+		</nav>
+		<article>
+			<div class="main">
+				<div class="desktop">
+					<!--Contents of main page (Desktop)-->
+				</div>
+				<div class="mobile">
+					<!--Contents of main page (Mobile)-->
+				</div>
+			</div>
+			<div class="sub1 inactiveContent">
+				<div class="desktop">
+					<!--Contents of sub page 1 (Desktop)-->
+				</div>
+				<div class="mobile">
+					<!--Contents of sub page 1 (Mobile)-->
+				</div>
+			</div>
+			<div class="sub2 inactiveContent">
+				<div class="desktop">
+					<!--Contents of sub page 2 (Desktop)-->
+				</div>
+				<div class="mobile">
+					<!--Contents of sub page 2 (Mobile)-->
+				</div>
+			</div>
+			<div class="sub3 inactiveContent">
+				<div class="desktop">
+					<!--Contents of sub page 3 (Desktop)-->
+				</div>
+				<div class="mobile">
+					<!--Contents of sub page 3 (Mobile)-->
+				</div>
+			</div>
+		</article>
+		<footer>
+			<p>Készítette: Albert Bence &copy; 2022</p>
+		</footer>
+	</body>
+</html>

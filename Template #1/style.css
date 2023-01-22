@@ -1,0 +1,322 @@
+*
+{
+	-webkit-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out;
+    -moz-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out;
+    -o-transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out;
+	transition: color 500ms ease-in-out, background-color 500ms ease-in-out, text-shadow 500ms ease-in-out, border 500ms ease-in-out;
+}
+html
+{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	scrollbar-width: none;
+}
+body
+{
+	padding: 0;
+	border: 0;
+	margin: 0;
+	-ms-overflow-style: none;
+}
+body::-webkit-scrollbar
+{
+	display: none;
+}
+header
+{
+	padding: 0.1vw;
+	border: 0;
+	margin: 5% 10% 0;
+	border-radius: 2vw 2vw 0 0;
+}
+header h1
+{
+	text-align: center;
+	font-size: 6vw;
+}
+h2
+{
+	font-size: 2vw;
+	margin: 0.5vw 2vw;
+	text-align: center;
+}
+th
+{
+	font-size: 1.25vw;
+	padding: 0.2vw;
+	text-align: center;
+}
+h3
+{
+	font-size: 1.25vw;
+	margin: 0.5vw 2vw;
+	text-align: center;
+}
+footer p
+{
+	text-align: center;
+	font-size: 1vw;
+}
+p
+{
+	font-size: 1vw;
+	margin: 0 10%;
+	text-align: center;
+}
+label
+{
+	font-size: 1vw;
+	text-align: center;
+}
+div.visual
+{
+	border-radius: 2vw;
+	box-shadow: 0 0 1vw #000;
+	display: table;
+	margin: 1vw auto;
+	padding: 1.5vw;
+}
+td
+{
+	font-size: 1vw;
+	text-align: center;
+	padding: 0.2vw;
+}
+td.title
+{
+	font-size: 1.5vw;
+	font-weight: bold;
+}
+article li
+{
+	font-size: 1vw;
+	margin: 0 2vw;
+}
+article ul
+{
+	list-style: disc;
+}
+article ol
+{
+	list-style: decimal;
+}
+nav ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav li 
+{
+  float: left;
+}
+nav li a 
+{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  border-radius: 0.5vw;
+}
+nav li.css
+{
+  float: right;
+}
+nav li button 
+{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  border: none;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 0.5vw;
+}
+article a.visual
+{
+	font-size: 1vw;
+	margin: 2vw 4vw;
+	padding: 1vw;
+	display: inline-block;
+}
+table.visual
+{
+	border-radius: 1vw;
+	box-shadow: 0 0 1vw #000;
+}
+table.visual tr td
+{
+	border-radius: 1vw;
+}
+table.visual tr th
+{
+	border-radius: 1vw;
+}
+img
+{
+	max-width:100%;
+	height:auto;
+	margin: 0 2vw;
+	border-radius: 2vw;
+	box-shadow: 0 0 1vw #000;
+}
+iframe
+{
+	max-width:100%;
+	max-height:100%;
+	margin: 1vw 2vw;
+}
+footer
+{
+	margin: 0 10% 0;
+	width: 80%;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	border-radius: 2vw 2vw 0 0;
+	box-shadow: 0 0 1vw #000;
+}
+article
+{
+	margin: 0 10% 5%;
+	padding: 0.1vw;
+	border-radius: 0 0 2vw 2vw;
+}
+nav
+{
+	margin: 0 10%;
+	padding: 0.1vw;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	box-shadow: 0 1vw 1vw -1vw #000;
+}
+table
+{
+	width: 100%;
+}
+button.download
+{
+	font-size: 1vw;
+	padding: 1vw 2vw;
+	border: none;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+}
+input.submit 
+{
+	font-size: 1vw;
+	padding: 0.5vw 1vw;
+	border-radius: 1vw;
+	box-shadow: 0 0 1vw #000;
+}
+.questionHeader{
+	margin-top: 2vw;
+	margin-bottom: 0vw;
+}
+.actualLabel{
+	color: aqua;
+}
+.correctLabel{
+	color: greenyellow;
+}
+.wrongLabel{
+	color: red;
+}
+.correct{
+	color: greenyellow;
+}
+.wrong{
+	color: red;
+}
+#sum{
+	padding-top: 4vw;
+}
+@media screen and (max-device-width: 950px) 
+{ 
+	nav li 
+	{
+		float: none;
+	}
+	nav li.css
+	{
+		float: none;
+	}
+	nav li a
+	{
+		font-size: 3vw;
+	}
+	nav li button
+	{
+		font-size: 4vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer p 
+	{
+		font-size: 2vw;
+	}
+	article a.visual
+	{
+		font-size: 2vw;
+		margin: 0;
+	}
+	button.download
+	{
+		font-size: 2vw;
+		margin: 0;
+	}
+	p 
+	{
+		font-size: 2vw;
+		margin: 0;
+	}
+	h2
+	{
+		font-size: 4vw;
+		margin: 1vw 0;
+	}
+	h3
+	{
+		font-size: 2.5vw;
+		margin: 1vw 0;
+	}
+	article li
+	{
+		font-size: 2vw;
+		margin: 0;
+	}
+	header
+	{
+		margin: 1% 2% 0;
+	}
+	nav
+	{
+		margin: 0 2%;
+		position: static;
+	}
+	article
+	{
+		margin: 0 2% 1%;
+	}
+	footer
+	{
+		width: 96%;
+		margin: 0 2%;
+	}
+	iframe
+	{
+		margin: 0;
+	}
+	img
+	{
+		margin: 0;
+	}
+}

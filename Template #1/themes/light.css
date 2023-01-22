@@ -1,0 +1,171 @@
+html
+{
+	background-image: url('../img/back.png');
+}
+.anim-rgb-border
+{
+	border: 0.1vw solid #fff;
+}
+header
+{
+	background-color: #B2BCBF;
+}
+header h1
+{
+	color: black;
+}
+h2
+{
+	color: black;
+}
+th
+{
+	color: black;
+}
+h3
+{
+	color: black;
+}
+footer p
+{
+	color: black;
+}
+p
+{
+	color: black;
+}
+b
+{
+	color: black;
+}
+label
+{
+	color: black;
+}
+div.visual
+{
+	background-color: #B2BCBF;
+}
+td
+{
+	color: black;
+}
+article li
+{
+	color: black;
+}
+nav ul 
+{
+  background-color: #B2BCBF;
+}
+nav li a 
+{
+  color: black;
+}
+nav li a:hover 
+{
+  background-color: #64CFED;
+}
+nav li a.active
+{
+	background-color: #14B4E0;
+}
+nav li button 
+{
+  color: black;
+  background-color: #B2BCBF;
+}
+nav li button:hover 
+{
+  background-color: #64CFED;
+}
+nav li button.active
+{
+	background-color: #14B4E0;
+}
+article a.visual
+{
+	color: black;
+	background-color: #B2BCBF;
+}
+article a.visual:hover
+{
+	background-color: #64CFED;
+}
+table.visual
+{
+	border: 1px solid black;
+	background-color: #B2BCBF;
+}
+table.visual tr td
+{
+	border: 1px solid black;
+}
+table.visual tr th
+{
+	border: 1px solid black;
+}
+a
+{
+	color: black;
+}
+a:hover
+{
+	color: black;
+}
+footer
+{
+	background-color: #B2BCBF;
+}
+article
+{
+	background-color: #CCE6EDe6;
+}
+nav
+{
+	background-color: #B2BCBF;
+}
+button.download
+{
+	color: white;
+	background-color: DodgerBlue;
+}
+button.download:hover
+{
+	background-color: RoyalBlue;
+}
+input.submit 
+{
+	background-color: #B2BCBF;
+	color: #000;
+	border: 0.1vw solid #000;
+}
+input.submit:hover 
+{
+	background-color: #64CFED;
+}
+.text-hover-anim-float
+{
+	color: #444;
+	text-shadow:
+        1px 1px 0 #222,
+        2px 2px 0 #333,
+        3px 3px 0 #333,
+        4px 4px 0 #333,
+        4px 4px 15px #000,
+        4px 4px 5px #000;
+}
+.text-hover-anim-float:hover
+{
+	text-shadow:
+        1px 1px 0 #222,
+        2px 2px 0 #333,
+        3px 3px 0 #333,
+        4px 4px 0 #333,
+        13px 13px 35px #000,
+        13px 13px 20px #000;
+}
+.flipBack
+{
+	background-color: #B2BCBF;
+}
