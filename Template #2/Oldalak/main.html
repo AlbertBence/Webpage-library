@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Template Page</title>
+		<link rel="icon" href="../Galéria/Képek/Általános/logo.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="../Stílusok/Általános/utility.css">
+		<link rel="stylesheet" href="../Stílusok/Általános/SpecialElements.css">
+		<link rel="stylesheet" href="../Stílusok/Általános/common.css">
+		<link rel="stylesheet" href="../Stílusok/Main/style.css">
+		<link rel="stylesheet" href="../Stílusok/Main/dark.css" id="theme">
+		<script src="../Szkriptek/ThemeChanger.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="logo"><a href="main.html"><img src="../Galéria/Képek/Általános/logo.png" alt="">Template Page</a></div>
+				<ul>
+					<li><a href="control.html">Control</a></li>
+					<li><a href="prey.html">Prey</a></li>
+				</ul>
+				<a href="#" class="ThemeButton" onclick="switchCSS()">Change theme</a>
+				<div class="toggle">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+			</nav>
+			<div class="dropdown">
+				<ul>
+					<li><a href="control.html">Control</a></li>
+					<li><a href="prey.html">Prey</a></li>
+					<li><a href="#" class="ThemeButton" onclick="switchCSS()">Change theme</a></li>
+				</ul>
+			</div>
+		</header>
+		<article>
+			<section id="Title">
+				<div class="Parallax">
+					<div id="background"></div>
+					<img src="../Galéria/Képek/Main/Parallax/moon.png" id="moon" alt="">
+					<img src="../Galéria/Képek/Main/Parallax/forest.png" id="forest" alt="">
+					<div class="ParallaxText" id="text">
+						<h1>Template</h1>
+					</div>
+					<img src="../Galéria/Képek/Main/Parallax/grass.png" id="grass" alt="">
+				</div>
+			</section>
+			<section>
+				<h2>Creators</h2>
+				<div id="Creators">
+					<img src="../Galéria/Képek/Main/A.png" alt="">
+					<img src="../Galéria/Képek/Main/B.png" alt="">
+					<img src="../Galéria/Képek/Main/C.png" alt="">
+					<ul>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+					</ul>
+					<ul>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+					</ul>
+					<ul>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+					</ul>
+				</div>
+			</section>
+			<section lang="hu">
+				<div class="GamePreviewLeft">
+					<img src="../Galéria/Képek/Control/MainTitle.jpg" alt="">
+					<div>
+						<h3>Control</h3>
+						<p>
+							Miután egy titkos New York-i ügynökséget megszállt egy túlvilági fenyegetés, te leszel az új igazgató, aki az irányítás visszaszerzéséért küzd. Ez a természetfeletti, harmadik személyű akció-kalandjáték kihívást elé állít, hogy elsajátítsd a természetfeletti képességek, a módosítható felszerelések és a reaktív környezet kombinációját, miközben egy mély és kiszámíthatatlan világban harcolsz.
+						</p>
+						<a href="../Oldalak/control.html">Tovább a játék oldalára</a>
+					</div>
+				</div>
+				<div class="GamePreviewRight">
+					<div>
+						<h3>Prey</h3>
+						<p>
+							A Talos I fedélzetén semmi sem az, aminek látszik. Fejtsd meg a hátrahagyott nyomokat, és fedd fel az igazságot a múltadról. Milyen szerepet fogsz játszani a TranStar terveiben és az állomást fenyegető titokzatos fenyegetésben?
+						</p>
+						<a href="../Oldalak/prey.html">Tovább a játék oldalára</a>
+					</div>
+					<img src="../Galéria/Képek/Prey/MainTitle.jpg" alt="">
+				</div>
+			</section>
+			<section>
+				<h2>Supported browsers:</h2>
+				<div id="Browsers">
+					<img src="../Galéria/Képek/Main/chromelogo.png" alt="" />
+					<img src="../Galéria/Képek/Main/edgelogo.png" alt="" />
+					<img src="../Galéria/Képek/Main/operalogo.png" alt="" />
+				</div>
+			</section>
+		</article>
+		<footer>
+			<div class="separator"></div>
+			<h3>Created by Albert Bence &copy 2023</h3>
+		</footer>
+		<script src="../Szkriptek/menu.js"></script>
+		<script src="../Szkriptek/parallax.js"></script>
+	</body>
+</html>

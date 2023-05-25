@@ -1,0 +1,79 @@
+:root
+{
+	--color60: #040809;
+	--color30: #04664B;
+	--color10: #B0CA87;
+}
+
+html
+{
+	background-color: var(--color60);
+}
+
+*
+{
+	color: white;
+}
+
+div.separator
+{
+	background-image: url("../../Galéria/Képek/Main/waves_dark.svg");
+}
+
+section.alternative
+{
+	background-color: var(--color30);
+}
+
+nav a:hover, nav div a:hover, nav ul li a:hover, .dropdown ul li a:hover
+{
+	color: var(--color10);
+}
+
+nav .ThemeButton, nav .ThemeButton:hover, .dropdown ul li .ThemeButton, .dropdown ul li .ThemeButton:hover
+{
+	background-color: var(--color10);
+	color: white;
+}
+
+.toggle
+{
+	color: white;
+}
+
+.dropdown
+{
+	background-color: rgb(255, 255, 255, 0.1);
+}
+
+div.Review
+{
+	background-color: var(--color10);
+	border: 1px solid black;
+}
+
+div.Review div.ReviewIcon
+{
+	background-color: var(--color30);
+	border: 1px solid black;
+}
+
+div.Review div.ReviewIcon i
+{
+	color: var(--color10);
+}
+
+footer
+{
+	background-color: var(--color30);
+}
+
+#Creators img
+{
+	border-color: var(--color10);
+}
+
+.GamePreviewLeft div a, .GamePreviewRight div a
+{
+	color: var(--color10);
+}

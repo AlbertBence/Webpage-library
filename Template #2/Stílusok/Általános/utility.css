@@ -1,0 +1,184 @@
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+.left
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: left;
+}
+.right
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: right;
+}
+.TimesNewRoman
+{
+	font-family: "Times New Roman", Times, serif;
+}
+.Arial
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.italic
+{
+	font-style: italic;
+}
+.bold
+{
+	font-weight: bold;
+}
+.SmallCapital
+{
+	font-variant: small-caps;
+}
+.w5
+{
+	width: 5%;
+}
+.w10
+{
+	width: 10%;
+}
+.w15
+{
+	width: 15%;
+}
+.w20
+{
+	width: 20%;
+}
+.w25
+{
+	width: 25%;
+}
+.w30
+{
+	width: 30%;
+}
+.w33
+{
+	width: 33%;
+}
+.w35
+{
+	width: 35%;
+}
+.w40
+{
+	width: 40%;
+}
+.w45
+{
+	width: 45%;
+}
+.w50
+{
+	width: 50%;
+}
+.w55
+{
+	width: 55%;
+}
+.w60
+{
+	width: 60%;
+}
+.w65
+{
+	width: 65%;
+}
+.w66
+{
+	width: 66%;
+}
+.w70
+{
+	width: 70%;
+}
+.w75
+{
+	width: 75%;
+}
+.w80
+{
+	width: 80%;
+}
+.w85
+{
+	width: 85%;
+}
+.w90
+{
+	width: 90%;
+}
+.w95
+{
+	width: 95%;
+}
+.w100
+{
+	width: 100%;
+}
+.br0
+{
+	border-radius: 0;
+}
+.br1
+{
+	border-radius: 1vw;
+}
+.br2
+{
+	border-radius: 2vw;
+}
+.rotate90
+{
+	transform: rotate(90deg);
+}
+.rotate180
+{
+	transform: rotate(180deg);
+}
+.rotate270
+{
+	transform: rotate(270deg);
+}
+.activeContent
+{
+    display: block;
+}
+.desktop
+{
+	display: block;
+}	
+.inactiveContent
+{
+    display: none;
+}
+.mobile
+{		
+	display: none;
+}
+@media screen and (max-width: 950px) 
+{
+	.desktop
+	{
+		display: none;
+	}
+	.mobile
+	{
+		display: block;
+	}
+	.inactiveContent
+	{
+		display: none;
+	}
+}

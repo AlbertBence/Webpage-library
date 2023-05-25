@@ -1,0 +1,95 @@
+:root
+{
+	--color60: #111;
+	--color30: #5C0A0E;
+	--color10: #EA8C55;
+}
+
+html
+{
+	background-color: var(--color60);
+}
+
+*
+{
+	color: white;
+}
+
+div.separator
+{
+	background-image: url("../../Galéria/Képek/Control/waves_dark.svg");
+}
+
+section.alternative
+{
+	background-color: var(--color30);
+}
+
+nav a:hover, nav div a:hover, nav ul li a:hover, .dropdown ul li a:hover
+{
+	color: var(--color10);
+}
+
+nav .ThemeButton, nav .ThemeButton:hover, .dropdown ul li .ThemeButton, .dropdown ul li .ThemeButton:hover
+{
+	background-color: var(--color10);
+	color: white;
+}
+
+.toggle
+{
+	color: white;
+}
+
+.dropdown
+{
+	background-color: rgb(255, 255, 255, 0.1);
+}
+
+div.Review
+{
+	background-color: var(--color10);
+	border: 1px solid black;
+}
+
+div.Review div.ReviewIcon
+{
+	background-color: var(--color30);
+	border: 1px solid black;
+}
+
+div.Review div.ReviewIcon i
+{
+	color: var(--color10);
+}
+
+footer
+{
+	background-color: var(--color30);
+}
+
+div.Banner div.BannerShade
+{
+	background-image: url(../../Galéria/Képek/Általános/shadefekete.png);
+}
+
+.manual-btn, .auto-navigation div
+{
+	border-color: var(--color10);
+}
+
+.manual-btn:hover
+{
+	background-color: var(--color10);
+}
+
+#gallery-btn1:checked ~ .auto-navigation #auto-btn1 {background-color: var(--color10)}
+#gallery-btn2:checked ~ .auto-navigation #auto-btn2 {background-color: var(--color10)}
+#gallery-btn3:checked ~ .auto-navigation #auto-btn3 {background-color: var(--color10)}
+#gallery-btn4:checked ~ .auto-navigation #auto-btn4 {background-color: var(--color10)}
+#gallery-btn5:checked ~ .auto-navigation #auto-btn5 {background-color: var(--color10)}
+#gallery-btn6:checked ~ .auto-navigation #auto-btn6 {background-color: var(--color10)}
+#gallery-btn7:checked ~ .auto-navigation #auto-btn7 {background-color: var(--color10)}
+#gallery-btn8:checked ~ .auto-navigation #auto-btn8 {background-color: var(--color10)}
+#gallery-btn9:checked ~ .auto-navigation #auto-btn9 {background-color: var(--color10)}
+#gallery-btn10:checked ~ .auto-navigation #auto-btn10 {background-color: var(--color10)}

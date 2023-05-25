@@ -1,0 +1,297 @@
+div.Banner
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	width: 100%;
+	height: auto;
+}
+
+div.Banner div.BannerText
+{
+	z-index: 1;
+	display: block;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+div.Banner div.BannerVideo
+{
+	position: absolute;
+    z-index: -1;
+    inset: 0px;
+    overflow: hidden;
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: none;
+}
+
+div.Banner div.BannerImage
+{
+	z-index: -2;
+	width: 100%;
+    height: 100%;
+    position: relative;
+    line-height: 0;
+}
+
+div.Banner div.BannerShade
+{
+	z-index: 0;
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: repeat-x;
+    background-position: bottom left;
+	display: block;
+}
+
+div.Banner div.BannerVideo video
+{
+	z-index: -1;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+    opacity: 1;
+	object-fit: cover;
+    overflow: clip;
+	height: 100%;
+    width: 177.77777778vh;
+    min-width: 100%;
+    min-height: 56.25vw;
+}
+
+div.Banner div.BannerImage img
+{
+	position: relative;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+div.Review
+{
+	padding: 1rem;
+	border-radius: 1rem;
+	position: relative;
+	margin: auto 0;
+}
+
+div.Review div.ReviewIcon
+{
+	border-radius: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px;
+	transform: translate(30%, -30%);
+}
+
+div.Review p
+{
+	margin: 0;
+}
+
+div.Review p.ReviewAuthor
+{
+	text-align: right;
+	vertical-align: bottom;
+}
+
+.SteamEmbed
+{
+	display: flex;
+	justify-content: center;
+	margin: 10px auto;
+	max-width: 100%;
+	border: none;
+}
+
+div.Parallax
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+div.Parallax div.ParallaxText
+{
+	position: absolute;
+}
+
+div.Parallax img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	pointer-events: none;
+}
+
+.gallery
+{
+	margin: 0 auto;
+	max-width: 100%;
+	width: 800px;
+	height: 450px;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.gallery-slides
+{
+	height: 450px;
+	display: flex;
+}
+
+.gallery-slides input
+{
+	display: none;
+}
+
+.slide-div
+{
+	transition: 2s;
+}
+
+.slide-div img, .slide-div iframe
+{
+	width: 800px;
+	height: 450px;
+	object-fit: cover;
+	border: 0;
+}
+
+.manual-navigation
+{
+	position: absolute;
+	width: 800px;
+	margin-top: -30px;
+	display: flex;
+	justify-content: center;
+}
+
+.manual-btn
+{
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual-btn:not(:last-child)
+{
+	margin-right: 20px;
+}
+
+.auto-navigation
+{
+	position: absolute;
+	width: 800px;
+	margin-top: 420px;
+	display: flex;
+	justify-content: center;
+}
+
+.auto-navigation div
+{
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.auto-navigation div:not(:last-child)
+{
+	margin-right: 20px;
+}
+
+@media (max-width: 850px)
+{
+	.gallery
+	{
+		width: 600px;
+		height: 337.5px;
+	}
+	
+	.gallery-slides
+	{
+		height: 337.5px;
+	}
+	
+	.slide-div img, .slide-div iframe
+	{
+		width: 600px;
+		height: 337.5px;
+	}
+	
+	.manual-navigation
+	{
+		width: 600px;
+		margin-top: -60px;
+	}
+	
+	.auto-navigation
+	{
+		width: 600px;
+		margin-top: 277.5px;
+	}
+}
+
+@media (max-width: 650px)
+{
+	.gallery
+	{
+		width: 450px;
+		height: 253.13px;
+	}
+	
+	.gallery-slides
+	{
+		height: 253.13px;
+	}
+	
+	.slide-div img, .slide-div iframe
+	{
+		width: 450px;
+		height: 253.13px;
+	}
+	
+	.manual-navigation
+	{
+		width: 450px;
+		margin-top: -60px;
+	}
+	
+	.auto-navigation
+	{
+		width: 450px;
+		margin-top: 193.13px;
+	}
+}
